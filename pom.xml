@@ -12,7 +12,7 @@
 	<artifactId>reactive-view</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>reactive-view</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Reactive View project for Spring Boot</description>
 
 	<properties>
 		<java.version>12</java.version>
@@ -26,6 +26,10 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webflux</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
 		</dependency>
 
 		<dependency>
